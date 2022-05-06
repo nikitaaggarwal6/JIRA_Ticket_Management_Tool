@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet " href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <title>JIRA TICKET CLONE</title>
+</head>
+
+<body>
+
+    <!-- Tool-Box -->
+    <div class="toolbox-cont">
+        <div title="Filter Tasks" class="toolbox-priority-cont">
+            <div title="Urgent and Important" class="color teal1" data-hover="urgent"></div>
+            <div title="Urgent but not Important" class="color teal2"></div>
+            <div title="Not Urgent but Important" class="color teal3"></div>
+            <div title="Neither Urgent nor Important" class="color teal4"></div>
+        </div>
+        <div class="action-btn-cont">
+            <div title="Add" class="add-btn">
+                <i class="fa-solid fa-plus"></i>
+            </div>
+            <div title="Remove" class="remove-btn">
+                <i class="fa-solid fa-xmark"></i>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main-Ticket-Cont -->
+    <div class="main-cont"> </div>
+
+    <!-- Modal-Cont -->
+    <div class="modal-cont">
+        <textarea spellcheck="false" class="textarea-cont"></textarea>
+        <div class="priority-option-cont">
+            <div class="priority-color teal1"></div>
+            <div class="priority-color teal2"></div>
+            <div class="priority-color teal3"></div>
+            <div class="priority-color teal4 border"></div>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
